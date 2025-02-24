@@ -139,7 +139,7 @@ a{
         left: 0;
         right: 0;
         margin: 5% auto;
-        bottom: 200px;
+        bottom: 100px;
         width: fit-content;
     }
 
@@ -157,7 +157,7 @@ a{
     }
 
     #canvas{
-        top: 200px;
+        top: 150px;
         height: 400px;
         width: 400px;
     }
@@ -167,3 +167,10 @@ a{
     }
 }
 
+@media (max-width: 400px) {
+    #canvas{
+        top: 150px;
+        height: 98vw;
+        width: 98vw;
+    }
+}
